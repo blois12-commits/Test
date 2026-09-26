@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "gorilladesk": {
+      "type": "http",
+      "url": "https://api.gorilladesk.com/mcp/v1",
+      "headers": {
+        "Authorization": "Bearer ${GORILLADESK_ACCESS_TOKEN}"
+      }
+    }
+  }
+}
